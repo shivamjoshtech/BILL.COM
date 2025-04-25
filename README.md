@@ -60,38 +60,22 @@ File Structure
 bill-com/
 
 ├── src/
-
 │   ├── components/         # React components (BillHeader, BillTable, BillSummary, BillForm)
-
 │   │   ├── BillForm.tsx
-
 │   │   ├── BillHeader.tsx
-
 │   │   ├── BillTable.tsx
-
 │   │   └── BillSummary.tsx
-
 │   ├── types/             # TypeScript interfaces (Bill, BillItem)
-
 │   │   └── index.ts
 │   ├── utils/             # Utility functions (calculations, pdfGenerator, storage)
-
 │   │   ├── calculations.ts
-
 │   │   ├── pdfGenerator.ts
-
 │   │   └── storage.ts
-
 │   ├── App.tsx            # Main app component
-
 │   └── index.tsx          # Entry point
-
 ├── public/                # Static assets
-
 ├── package.json           # Project dependencies and scripts
-
 └── README.md              # This file
-
 └── LICENSE.md             # The License of Copy Rights
 
 ##Project Details
