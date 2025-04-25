@@ -5,6 +5,16 @@
 BILL.COM is a React-based web application designed for efficient steel billing and invoicing, specifically tailored for small to medium-sized enterprises in the steel industry. Built with TypeScript and styled using Tailwind CSS, this project enables users to create, manage, and print professional invoices with detailed item entries (size, weight, pieces, quantity, rate, total) and automated GST (CGST and SGST) calculations. The application generates downloadable and printable PDFs with a polished layout, leveraging jsPDF, and includes local storage for persistent bill data.
 
 This project combines functionality with a modern, responsive user interface, making it an ideal solution for streamlining billing workflows in steel businesses.
+![Landing Page](https://github.com/user-attachments/assets/63562ac5-4f9b-4cf1-879d-1111dd32eb3c)  
+*Image 1: The landing page of BILL.COM, showcasing the initial interface with options to create a new bill or edit existing ones, featuring a clean design with a header, input fields for bill details, and action buttons (Save, Download, Print).*
+
+![Bill Creation](https://github.com/user-attachments/assets/5824a013-c43b-4e24-9658-511e706852af)  
+*Image 2: The bill creation process, displaying the interactive table where users can add or remove items (e.g., size, quantity, rate), view real-time calculations, and manage bill details like vehicle number and date, highlighting the dynamic and user-friendly interface.*
+
+![PDF Print](https://github.com/user-attachments/assets/4aa76ae5-24cd-4d95-a69f-0be58a461e5d)  
+*Image 3: The PDF print output after clicking "Print," showing a professional invoice layout with bill details, an itemized table (e.g., 8mm, 15mm, 12mm items), and a summary section including Total Qty, Avg. Rate, Subtotal, GST, and Grand Total, demonstrating the polished design.*
+
+
 
 ## Features
 
