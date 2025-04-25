@@ -30,22 +30,24 @@ This project combines functionality with a modern, responsive user interface, ma
    git clone https://github.com/your-username/bill-com.git
    cd bill-com
 
-Install Dependencies: Ensure you have Node.js installed, then run:
+##Install Dependencies: Ensure you have Node.js installed, then run:
 
 npm install
-Start the Development Server:
+
+
+##Start the Development Server:
 
 npm start
 Open [http://localhost:5173/](http://localhost:5173/) in your browser to view the app.
 
 
-Build for Production:
+##Build for Production:
 
 npm run build
 This generates a production-ready build in the build folder.
 
 
-USAGE
+##USAGE
 Create a New Bill: Enter bill details (Bill No, Vehicle No, Series, Date) and add items with size, quantity, rate, etc.
 Save the Bill: Click "Save" to store the bill locally.
 Download/Print: Use "Download" or "Print" to generate a PDF invoice.
@@ -53,36 +55,56 @@ Edit Existing Bill: Load a saved bill by ID and modify as needed.
 File Structure
 
 
-REPOSITORY TREE
+##REPOSITORY TREE
 
 bill-com/
+
 ├── src/
+
 │   ├── components/         # React components (BillHeader, BillTable, BillSummary, BillForm)
+
 │   │   ├── BillForm.tsx
+
 │   │   ├── BillHeader.tsx
+
 │   │   ├── BillTable.tsx
+
 │   │   └── BillSummary.tsx
+
 │   ├── types/             # TypeScript interfaces (Bill, BillItem)
+
 │   │   └── index.ts
 │   ├── utils/             # Utility functions (calculations, pdfGenerator, storage)
+
 │   │   ├── calculations.ts
+
 │   │   ├── pdfGenerator.ts
+
 │   │   └── storage.ts
+
 │   ├── App.tsx            # Main app component
+
 │   └── index.tsx          # Entry point
+
 ├── public/                # Static assets
+
 ├── package.json           # Project dependencies and scripts
+
 └── README.md              # This file
-Project Details
+
+└── LICENSE.md             # The License of Copy Rights
+
+##Project Details
+
 BillForm.tsx
 
 
 The main component for creating and editing bills. It manages the state of bill details (vehicle number, series, bill number, date, organization name) and items, and handles saving, downloading, and printing bills. It uses useEffect to recalculate totals and GST dynamically.
 
-BillTable.tsx
+##BillTable.tsx
 A component for displaying and editing bill items in a table format. Users can add/remove rows, input item details (size, weight, pieces, quantity, rate), and see calculated totals. Features a responsive design with Tailwind CSS and includes a bin icon for removing items.
 
-calculations.ts
+##calculations.ts
 Handles all billing calculations, including item totals (based on pieces, quantity, and rate), total quantity, average rate, GST (CGST and SGST), and grand total. Ensures accurate financial computations for the bill.
 
 pdfGenerator.ts
