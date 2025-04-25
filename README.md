@@ -36,7 +36,7 @@ npm install
 Start the Development Server:
 
 npm start
-Open [http://localhost:](http://localhost:5173/) in your browser to view the app.
+Open [http://localhost:5173/](http://localhost:5173/) in your browser to view the app.
 
 
 Build for Production:
